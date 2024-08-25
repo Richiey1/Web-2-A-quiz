@@ -30,8 +30,8 @@ main{
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
+    width: 45rem;
+    height: 40rem;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -41,36 +41,36 @@ main{
 }
 
 .game-details-container{
-    width: 80%;
-    height: 4rem;
+    width: 100%;
+    height: 10rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .game-details-container h1{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 .game-question-container{
-    width: 80%;
-    height: 8rem;
+    width: 90%;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid darkgray;
-    border-radius: 25px;
+    border-radius: 45px;
 }
 
 .game-question-container h1{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
     padding: 3px;
 }
 
 .game-options-container{
-    width: 80%;
-    height: 12rem;
+    width: 100%;
+    height: 16rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -78,10 +78,10 @@ main{
 }
 
 .game-options-container span{
-    width: 45%;
+    width: 40%;
     height: 3rem;
     border: 2px solid darkgray;
-    border-radius: 20px;
+    border-radius: 40px;
     overflow: hidden;
 }
 span label{
@@ -100,7 +100,7 @@ span label:hover{
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
-    color: white;
+    color: rgb(39, 191, 218);
 }
 
 input[type="radio"] {
