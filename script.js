@@ -518,11 +518,11 @@ function handleNextQuestion() {
     //delays next question displaying for a second just for some effects so questions don't rush in on player
     setTimeout(() => {
         if (indexNumber <= 49) {
-//displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
+//displays next question as long as index number isn't greater than 49, remember index number starts from 0, so index 49 is question 50
             NextQuestion(indexNumber)
         }
         else {
-            handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
+            handleEndGame()//ends game if index number greater than 49 meaning we're already at the 50th question
         }
         resetOptionBackground()
     }, 1000);
